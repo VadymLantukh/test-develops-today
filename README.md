@@ -1,9 +1,3 @@
-Ось повний, якісно оформлений та професійний шаблон для вашого файлу README.md.
-
-Він включає всі необхідні секції, вимоги до ТЗ та місця для вставки скріншотів. Вам просто потрібно скопіювати його та замінити плейсхолдери.
-
-Markdown
-
 # 🚀 React Component Library Assessment (Vite + Storybook)
 
 This project is a small, reusable UI component library built to fulfill the requirements of the Front-end JS Engineer technical assessment.
