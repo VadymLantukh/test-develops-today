@@ -1,0 +1,68 @@
+@keyframes slideIn {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideOut {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(120%); opacity: 0; }
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  min-width: 280px;
+  z-index: 1000;
+
+  transform: translateX(120%);
+  opacity: 0;
+}
+
+.visible {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.hidden {
+  animation: slideOut 0.3s ease-in forwards;
+}
+
+.icon {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.message {
+  flex-grow: 1;
+  font-weight: 500;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: white;
+  margin-left: 15px;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0;
+  height: 16px;
+  width: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.closeButton:hover {
+  opacity: 1;
+}
+
+.success { background-color: #4caf50; }
+.error { background-color: #f44336; }
+.warning { background-color: #ff9800; }
+.info { background-color: #2196f3; }
