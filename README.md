@@ -25,8 +25,7 @@ To run the component library and view the documentation, follow these steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [YOUR_REPOSITORY_URL]
-    cd [your-project-directory]
+    git clone https://github.com/VadymLantukh/test-develops-today
     ```
 
 2.  **Install Dependencies:**
